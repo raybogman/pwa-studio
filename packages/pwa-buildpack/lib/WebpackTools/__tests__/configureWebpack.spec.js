@@ -1,18 +1,18 @@
 jest.mock('fs');
-jest.mock('pkg-dir');
 jest.mock('webpack-assets-manifest');
 jest.mock('../../Utilities/loadEnvironment');
+jest.mock('../../Utilities/findPackageRoot');
 jest.mock('../plugins/RootComponentsPlugin');
 jest.mock('../PWADevServer');
 
 const fs = require('fs');
-const pkgDir = require('pkg-dir');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
 const RootComponentsPlugin = require('../plugins/RootComponentsPlugin');
 const loadEnvironment = require('../../Utilities/loadEnvironment');
+const findPackageRoot = require('../../Utilities/findPackageRoot');
 const configureWebpack = require('../configureWebpack');
 
-pkgDir.mockImplementation(x => x);
+findPackageRoot.local.mockImplementation(x => x);
 
 const mockStat = (dir, file, err = null) => {
     fs.stat.mockImplementationOnce((_, callback) =>
@@ -146,7 +146,9 @@ test('errors when mode unrecognized', async () => {
 test('handles special flags', async () => {
     simulate
         .statsAsDirectory()
-        .statsAsFile()
+        .statsAsFile() // babel config
+        .statsAsFile() // jest module
+        .statsAsFile() // pkgdir
         .productionEnvironment();
 
     const { clientConfig } = await configureWebpack({
