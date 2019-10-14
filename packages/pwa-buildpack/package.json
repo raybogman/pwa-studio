@@ -61,7 +61,7 @@
     "yargs": "~13.2.2"
   },
   "devDependencies": {
-    "memory-fs": "~0.4.1",
+    "memfs": "~2.15.5",
     "rimraf": "~2.6.3",
     "sharp": "~0.22.1",
     "strip-ansi": "~5.0.0",

@@ -1,5 +1,5 @@
 const { join } = require('path');
-const MemoryFS = require('memory-fs');
+const MemoryFS = require('memfs');
 const webpack = require('webpack');
 const jsYaml = require('js-yaml');
 const UpwardIncludePlugin = require('../UpwardIncludePlugin');
