@@ -1,6 +1,6 @@
 ci:
   collect:
-    numberOfRuns: 1
+    numberOfRuns: 3
     additive: true
     url:
       - https://venia.magento.com/
