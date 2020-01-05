@@ -23,6 +23,6 @@ ci:
           aggregationMethod: optimistic
   upload:
     target: lhci
-    serverBaseUrl: https://$HEROKU_SERVER/
+    serverBaseUrl: https://serene-ridge-48368.herokuapp.com/
     token: $LHCI_TOKEN
 
