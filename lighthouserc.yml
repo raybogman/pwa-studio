@@ -23,6 +23,6 @@ ci:
           aggregationMethod: optimistic
   upload:
     target: lhci
-    serverBaseUrl: https://$HEROKU_SERVER.herokuapp.com/
+    serverBaseUrl: $HEROKU_SERVER
     token: $LHCI_TOKEN
 
