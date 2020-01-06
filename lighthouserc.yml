@@ -1,6 +1,6 @@
 ci:
   collect:
-    numberOfRuns: 1
+    numberOfRuns: 3
     additive: true
     url:
       - https://venia.magento.com/
@@ -23,6 +23,6 @@ ci:
           aggregationMethod: optimistic
   upload:
     target: lhci
-    serverBaseUrl: $HEROKU_SERVER
+    serverBaseUrl: https://serene-ridge-48368.herokuapp.com/ #Only Static URL is Allowed
     token: $LHCI_TOKEN
 
