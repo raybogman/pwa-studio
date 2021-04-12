@@ -1,5 +1,5 @@
 /*!
- * @version v10.0.0-43-ged73ee7cf-dev
+ * @version v10.0.0-44-g382d87eee-dev
  * 
  */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[32],{"0jtP":function(e,n,t){(n=e.exports=t("JPst")(!1)).push([e.i,".gallery-root-3Eq {\n    display: grid;\n    grid-template-areas:\n        'actions'\n        'items';\n    grid-template-columns: 1fr;\n    line-height: 1;\n}\n\n.gallery-items-wQU {\n    display: grid;\n    grid-area: items;\n    grid-gap: 1rem;\n    grid-template-columns: repeat(3, 1fr);\n    margin-bottom: 10px;\n}\n\n@media (max-width: 640px) {\n    .gallery-items-wQU {\n        grid-template-columns: repeat(2, 1fr);\n    }\n}\n",""]),n.locals={root:"gallery-root-3Eq",items:"gallery-items-wQU"}},"3fKk":function(e,n,t){"use strict"

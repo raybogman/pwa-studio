@@ -1,5 +1,5 @@
 /*!
- * @version v10.0.0-43-ged73ee7cf-dev
+ * @version v10.0.0-44-g382d87eee-dev
  * 
  */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[13],{"3nHv":function(e,t,n){(t=e.exports=n("JPst")(!1)).push([e.i,".categoryTile-root-29o {\n    display: block;\n    line-height: 1rem;\n    text-align: center;\n    width: 6rem;\n}\n\n.categoryTile-imageContainer-3pz {\n    margin: 0 0.5rem 1rem 0.5rem;\n}\n\n.categoryTile-image-1k7 {\n    border-radius: 50%;\n    box-shadow: 0 0 0 1px rgb(var(--venia-global-color-border));\n    display: block;\n    height: 5rem;\n    object-fit: cover;\n    object-position: center;\n}\n\n.categoryTile-image_empty-224 {\n}\n\n.categoryTile-name-3et {\n    display: block;\n}\n",""]),t.locals={root:"categoryTile-root-29o",imageContainer:"categoryTile-imageContainer-3pz",image:"categoryTile-image-1k7",image_empty:"categoryTile-image_empty-224 categoryTile-image-1k7",name:"categoryTile-name-3et"}},"Dx+2":function(e,t,n){"use strict"
