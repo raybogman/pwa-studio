@@ -5,12 +5,12 @@ npm-debug.log
 jsconfig.json
 coverage
 test-results
-#dist
+dist
 storybook-dist
 .idea
 test-report.xml
 test-results.json
-#.env
+.env
 yarn-error.log
 # Packages that build partially transpiled ES modules put them here
 docker/certs
