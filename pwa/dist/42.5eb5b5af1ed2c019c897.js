@@ -1,5 +1,5 @@
 /*!
- * @version v10.0.0-40-g9441b2f82
+ * @version v10.0.0-41-g218172535-dev
  * 
  */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[42],{Gs8Z:function(n,e,t){(e=n.exports=t("JPst")(!1)).i(t("XhPg"),""),e.push([n.i,".linkButton-root-8A7 {\n    color: rgb(var(--venia-brand-color-1-700));\n    font-size: var(--venia-global-fontSize-200);\n    font-weight: var(--venia-global-fontWeight-semibold);\n    text-decoration: underline;\n    line-height: 1.25rem;\n    max-width: 100%;\n}\n\n.linkButton-root-8A7:hover {\n    color: rgb(var(--venia-global-color-gray-900));\n}\n",""]),e.locals={root:"linkButton-root-8A7 "+t("XhPg").locals.root}},U2Tj:function(n,e,t){"use strict"
