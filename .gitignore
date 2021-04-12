@@ -5,7 +5,7 @@ npm-debug.log
 jsconfig.json
 coverage
 test-results
-dist
+#dist
 storybook-dist
 .idea
 test-report.xml
