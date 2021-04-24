@@ -1,27 +1,15 @@
-node_modules
-npm-debug.log
-.DS_Store
+.idea
 .vscode
-jsconfig.json
 coverage
+node_modules
+storybook-dist
 test-results
 dist
-storybook-dist
-.idea
+.DS_Store
+.env
+build-stats.json
+npm-debug.log
+lastCachedGraphQLSchema.json
 test-report.xml
 test-results.json
-#.env
 yarn-error.log
-# Packages that build partially transpiled ES modules put them here
-docker/certs
-.history
-
-## exception: commit node_modules folders in test fixtures
-!**/__fixtures__/*/node_modules
-
-## May temporarily create tarballs during scaffolding debug
-packages/**/*.tgz
-
-# Local Netlify folder
-.netlify
-.vercel
